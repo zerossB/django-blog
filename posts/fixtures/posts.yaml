@@ -1,0 +1,234 @@
+- model: posts.post
+  pk: 1
+  fields:
+    title: Meu Primeiro Post
+    slug: meu-primeiro-post
+    excerpt: Mussum Ipsum, cacilds vidis litro abertis. Cevadis im ampola pa arma
+      uma pindureta. Nec orci ornare consequat. Praesent lacinia ultrices consectetur.
+      Sed non ipsum felis. Posuere libero varius. Nullam a nisl ut ante blandit hendrerit.
+      Aenean sit amet nisi. Paisis, filhis, espiritis santis.
+    content: "<p>Mussum Ipsum, cacilds vidis litro abertis. In elementis m&eacute;
+      pra quem &eacute; amistosis quis leo. Sapien in monti palavris qui num significa
+      nadis i pareci latim. T&aacute; deprimidis, eu conhe&ccedil;o uma cachacis que
+      pode alegrar sua vidis. Nec orci ornare consequat. Praesent lacinia ultrices
+      consectetur. Sed non ipsum felis.</p>\r\n<p>Mauris nec dolor in eros commodo
+      tempor. Aenean aliquam molestie leo, vitae iaculis nisl. Quem manda na minha
+      terra sou euzis! Delegadis gente finis, bibendum egestas augue arcu ut est.
+      Atirei o pau no gatis, per gatis num morreus.</p>\r\n<p>A ordem dos tratores
+      n&atilde;o altera o p&atilde;o duris. Pra l&aacute; , depois divoltis porris,
+      paradis. Paisis, filhis, espiritis santis. Si u mundo t&aacute; muito paradis?
+      Toma um m&eacute; que o mundo vai girarzis!</p>\r\n<p>Viva Forevis aptent taciti
+      sociosqu ad litora torquent. Cevadis im ampola pa arma uma pindureta. Quem num
+      gosta di mim que vai ca&ccedil;&aacute; sua turmis! Todo mundo v&ecirc; os porris
+      que eu tomo, mas ningu&eacute;m v&ecirc; os tombis que eu levo!</p>\r\n<p>Leite
+      de capivaris, leite de mula manquis sem cabe&ccedil;a. Diuretics paradis num
+      copo &eacute; motivis de denguis. Copo furadis &eacute; disculpa de bebadis,
+      arcu quam euismod magna. Vehicula non. Ut sed ex eros. Vivamus sit amet nibh
+      non tellus tristique interdum.</p>\r\n<p>Admodum accumsan disputationi eu sit.
+      Vide electram sadipscing et per. Praesent malesuada urna nisi, quis volutpat
+      erat hendrerit non. Nam vulputate dapibus. Quem num gosta di m&eacute;, boa
+      gentis num &eacute;. Casamentiss faiz malandris se pirulit&aacute;.</p>\r\n<p>Interagi
+      no m&eacute;, cursus quis, vehicula ac nisi. Suco de cevadiss deixa as pessoas
+      mais interessantis. Praesent vel viverra nisi. Mauris aliquet nunc non turpis
+      scelerisque, eget. Manduma pindureta quium dia nois paga.</p>\r\n<p>N&atilde;o
+      sou faixa preta cumpadi, sou preto inteiris, inteiris. Nullam volutpat risus
+      nec leo commodo, ut interdum diam laoreet. Sed non consequat odio. Suco de cevadiss,
+      &eacute; um leite divinis, qui tem lupuliz, matis, aguis e fermentis. Aenean
+      aliquam molestie leo, vitae iaculis nisl.</p>\r\n<p>Per aumento de cachacis,
+      eu reclamis. M&eacute; faiz elementum girarzis, nisi eros vermeio. Interessantiss
+      quisso pudia ce receita de bolis, mais bolis eu num gostis. Si num tem leite
+      ent&atilde;o bota uma pinga a&iacute; cumpadi!</p>\r\n<p>Mais vale um bebadis
+      conhecidiss, que um alcoolatra anonimis. Posuere libero varius. Nullam a nisl
+      ut ante blandit hendrerit. Aenean sit amet nisi. Detraxit consequat et quo num
+      tendi nada. Em p&eacute; sem cair, deitado sem dormir, sentado sem cochilar
+      e fazendo pose.&nbsp;</p>"
+    author: 1
+    is_active: true
+    tags:
+    - 1
+- model: posts.post
+  pk: 2
+  fields:
+    title: Segundo post django
+    slug: segundo-post-django
+    excerpt: A maior oferta de vagas no Brasil ainda é para programadores web, em
+      uma rápida busca nos maiores portais de emprego, é possível encontrar centenas
+      de vagas. É um mercado que recebe muita atenção, com uma grande variedade de
+      tecnologias, funcionalidades e novidades constantes. Escolher em qual tecnologia
+      investir nem sempre é uma tarefa fácil e, quando se trata de frameworks, ela
+      pode ser ainda mais difícil. Neste texto, vamos nos te contar tudo o que você
+      precisa saber sobre Django x Asp.NET.
+    content: "<p>A maior oferta de vagas no Brasil ainda &eacute; para programadores
+      web, em uma r&aacute;pida busca nos maiores portais de emprego, &eacute; poss&iacute;vel
+      encontrar centenas de vagas. &Eacute; um mercado que recebe muita aten&ccedil;&atilde;o,
+      com uma grande variedade de tecnologias, funcionalidades e novidades constantes.
+      Escolher em qual tecnologia investir nem sempre &eacute; uma tarefa f&aacute;cil
+      e, quando se trata de frameworks, ela pode ser ainda mais dif&iacute;cil. Neste
+      texto, vamos nos te contar tudo o que voc&ecirc; precisa saber sobre Django
+      x Asp.NET.</p>\r\n<p>Para facilitar a sua decis&atilde;o, primeiro vamos aprender
+      um pouco sobre o Asp.NET, com suas vantagens e desvantagens, depois passaremos
+      ao Django. Por fim, te ajudaremos a escolher entre Django x Asp.NET.&nbsp;</p>\r\n<h2><strong>Conhecendo
+      o Asp.NET</strong></h2>\r\n<p>Sucessora da tecnologia ASP, o <a class=\"rank-math-link\"
+      href=\"https://dotnet.microsoft.com/apps/aspnet\" target=\"_blank\" rel=\"noreferrer
+      noopener nofollow\" aria-label=\"Asp.NET (opens in a new tab)\">Asp.NET</a>
+      &eacute; a plataforma da Microsoft para desenvolvimento web. Ela n&atilde;o
+      &eacute; uma linguagem de programa&ccedil;&atilde;o e nem um servidor web. Funciona
+      atrav&eacute;s de uma linguagem de programa&ccedil;&atilde;o integrada na .NET
+      e permite a cria&ccedil;&atilde;o de p&aacute;ginas din&acirc;micas a partir
+      de v&aacute;rias linguagens, como o VB, C# e C++, criando aplica&ccedil;&otilde;es
+      em xml. Com ela, desenvolvedores de diferentes perfis podem usar suas linguagens
+      espec&iacute;ficas para trabalhar com a mesma tecnologia.</p>\r\n<p>O Asp.NET
+      foi projetado para rodar no Windows, mas atualmente roda tamb&eacute;m em servidores
+      Linux atrav&eacute;s do projeto mono. Utiliza o ambiente de desenvolvimento
+      Visual Studio.NET, que possui componentes visuais para cria&ccedil;&atilde;o
+      de formul&aacute;rios de p&aacute;ginas web. Uma vantagem &eacute; que pode
+      reutilizar c&oacute;digo de outros projetos escritos para a plataforma .NET.</p>\r\n<p>Ao
+      contr&aacute;rio de sua sucessora, a ASP, a Asp.NET compila suas aplica&ccedil;&otilde;es
+      antes da execu&ccedil;&atilde;o, o que aumenta seu desempenho. Possui acesso
+      nativo ao banco de dado SQL e acesso facilitado atrav&eacute;s de servidor para
+      outros bancos de dados.</p>\r\n<h2><strong>Pr&oacute;s do Asp.NET</strong></h2>\r\n<ul>\r\n<li><strong>Ferramentas</strong>:
+      Possui muitas ferramentas embutidas e muitos pacotes foram escritor com foco
+      nele.</li>\r\n<li><strong>Multiplataforma</strong></li>\r\n<li><strong>Amplamente
+      usado</strong>: Existe muita documenta&ccedil;&atilde;o dispon&iacute;vel, al&eacute;m
+      de v&aacute;rios tutoriais.</li>\r\n<li><strong>Rapidez</strong></li>\r\n<li><strong>Equil&iacute;brio
+      entre agilidade e customiza&ccedil;&atilde;o:</strong> Voc&ecirc; pode ajustar
+      detalhes comuns rapidamente, mas com total liberdade para fazer seu trabalho,
+      sabendo de tudo o que est&aacute; acontecendo por baixo dos panos. O sistema
+      altamente modular torna poss&iacute;vel dimensionar aplica&ccedil;&otilde;es
+      pequenas a grandes com facilidade.</li>\r\n</ul>\r\n<h2><strong>Contras do Asp.NET</strong></h2>\r\n<ul>\r\n<li><strong>ASP.NET
+      b&aacute;sico e completo &agrave;s vezes s&atilde;o um pouco confusos</strong>:
+      Eles ainda n&atilde;o possuem paridade de recursos e oferecem suportes separados.
+      &Agrave;s vezes &eacute; preciso fazer uma combina&ccedil;&atilde;o estranha
+      de recursos &ndash; o Asp.NET completo tem todos os recursos, mas n&atilde;o
+      &eacute; multiplataforma. &Eacute; preciso antes saber exatamente o que voc&ecirc;
+      precisa e pesquisar antes.</li>\r\n<li><strong>Caro</strong> &ndash; &Eacute;
+      preciso ter uma licensa para manter o seu site.</li>\r\n</ul>"
+    author: 1
+    is_active: true
+    tags:
+    - 1
+    - 3
+- model: posts.post
+  pk: 3
+  fields:
+    title: Conheça o Django
+    slug: conheca-o-django
+    excerpt: Django é um framework completo, com filosofia batteries included, que
+      torna o desenvolvimento web mais rápido e eficiente
+    content: "<p>Quando se trata de desenvolvimento web com Python, h&aacute; uma
+      infinidade de frameworks dispon&iacute;veis e escolher qual melhor se adapta
+      ao seu projeto &eacute; muito importante para aumentar a sua produtividade e
+      economizar tempo. <a class=\"rank-math-link\" href=\"http://dojo.bylearn.com.br/python/desenvolvimento-web-com-python/(abrir%20em%20uma%20nova%20aba)\"
+      target=\"_blank\" rel=\"noreferrer noopener\" aria-label=\" (opens in a new
+      tab)\">Neste texto</a>, te demos um panorama geral dos frameworks Python voltados
+      para web, focando em suas vantagens e desvantagens. Dentre eles, no entanto,
+      com certeza o <a class=\"rank-math-link\" href=\"https://www.djangoproject.com/\"
+      target=\"_blank\" rel=\"noreferrer noopener nofollow\" aria-label=\"Django  (opens
+      in a new tab)\">Django </a>&eacute; o mais usado e amado do mercado.</p>\r\n<p>Ele
+      &eacute; famoso por ser um framework completo, que oferece todas as ferramentas
+      necess&aacute;rias para construir uma aplica&ccedil;&atilde;o web em um &uacute;nico
+      pacote. Utilizando o padr&atilde;o de projeto MTV (<em>Model &ndash; </em>respons&aacute;vel
+      pelo gerenciamento de dados, <em>Template, </em>gerenciamento de entrada e sa&iacute;da,<em>
+      e View, </em>sa&iacute;da gr&aacute;fica e textual), ele permite que voc&ecirc;
+      pule todos os passos iniciais para cria&ccedil;&atilde;o de uma aplica&ccedil;&atilde;o
+      padr&atilde;o.</p>\r\n<p>O Django possui uma curva de aprendizagem curta e conquistar&aacute;
+      rapidamente seguran&ccedil;a para trabalhar com ele. Al&eacute;m disso, ele
+      &eacute; guiado pela premissa DRY (sigla inglesa para <em>Don&rsquo;t Repeat
+      Yourself, </em>ou N&atilde;o Repita a Si Mesmo em bom portugu&ecirc;s) e permite
+      e um excelente reaproveitamento de c&oacute;digos, sendo necess&aacute;rias
+      apenas pequenas modifica&ccedil;&otilde;es e adequa&ccedil;&otilde;es para o
+      seu projeto.</p>\r\n<p>Por fim, um destaque dentre as vantagens do Django &eacute;
+      sua parte administrativa. O framework fornece uma interface completa de controle
+      e gerenciamento de conte&uacute;do com a gera&ccedil;&atilde;o autom&aacute;tica
+      de uma p&aacute;gina de administra&ccedil;&atilde;o, sendo necess&aacute;rio
+      apenas definir os modelos no banco de dados.</p>\r\n<p>Confira abaixo suas principais
+      vantagens.</p>\r\n<h2><strong>Pr&oacute;s do Django</strong></h2>\r\n<ul>\r\n<li><strong>Desenvolvimento
+      simples e r&aacute;pido:</strong> A filosofia do Django de <em>batteries included</em>
+      significa que os desenvolvedores experientes n&atilde;o ter&atilde;o que planejar
+      com anteced&ecirc;ncia sobre o tipo de infraestrutura de aplicativo de que precisam
+      e apenas come&ccedil;ar a desenvolver aplicativos da web rapidamente.</li>\r\n<li><strong>Suporte
+      ORM:</strong> Django suporta Mapeamento Relacional de Objeto com modelos definidos
+      como classes Python. Cada atributo do modelo &eacute; ent&atilde;o representado
+      como um campo de banco de dados. As consultas s&atilde;o executadas lentamente
+      e o Django oferece aos desenvolvedores uma API de acesso ao banco de dados gerada
+      automaticamente.</li>\r\n<li><strong>Documenta&ccedil;&atilde;o e comunidade
+      de usu&aacute;rios:</strong> A documenta&ccedil;&atilde;o oficial do Django
+      &eacute; excelente. Bem escrita e completa, cada pequeno detalhe do framework
+      &eacute; explicado. Por ser muito popular, possui uma extensa comunidade e muitos
+      desenvolvedores experientes que o usam h&aacute; anos. Ou seja, h&aacute; muitos
+      guias e tutoriais para desenvolvedores novos e experientes.</li>\r\n<li><strong>Altamente
+      personaliz&aacute;vel</strong>: O banco de dados, a estrutura do modelo e o
+      ORM podem ser trocados.</li>\r\n<li><strong>Painel de controle, autoriza&ccedil;&atilde;o
+      e autentica&ccedil;&atilde;o: </strong>O Django possui funcionalidades de autoriza&ccedil;&atilde;o
+      e autentica&ccedil;&atilde;o junto com o gerenciamento de contas. Al&eacute;m
+      disso, uma das vantagens do Django muito falada por seus usu&aacute;rios &eacute;
+      o seu painel de administra&ccedil;&atilde;o. Ele vem com uma interface extremamente
+      funcional para gerenciar dados com base nos seus modelos e permite que voc&ecirc;
+      realize opera&ccedil;&otilde;es CRUD sem ter que escrever nenhum c&oacute;digo
+      extra.</li>\r\n<li><strong>Software maduro com muitos plug-ins desenvolvidos
+      ao longo dos anos:</strong> Django foi lan&ccedil;ado pela primeira vez em 2005,
+      ele teve muito tempo para amadurecer e se tornar melhor a cada lan&ccedil;amento.</li>\r\n<li><strong>Gerenciamento
+      de banco de dados:</strong> Django inclui um ORM poderoso que &eacute; compat&iacute;vel
+      com uma s&eacute;rie de bancos de dados relacionais, como o SQLite, PostgreSQL,
+      MySQL e Oracle. O ORM nativo do Django permite que voc&ecirc; crie e gerencie
+      migra&ccedil;&otilde;es de bancos de dados, al&eacute;m da cria&ccedil;&atilde;o
+      e visualiza&ccedil;&atilde;o de formul&aacute;rios de maneira r&aacute;pida.</li>\r\n</ul>\r\n<h2><strong>Contras
+      do Django</strong></h2>\r\n<ul>\r\n<li><strong>Excessivo para projetos pequenos:</strong>
+      A escala e a funcionalidade do Django podem parecer n&atilde;o funcionais e
+      infladas para aplicativos pequenos.</li>\r\n<li><strong>O roteamento de CON
+      requer algum conhecimento de express&otilde;es regulares</strong></li>\r\n<li><strong>N&atilde;o
+      &eacute; t&atilde;o flex&iacute;vel</strong></li>\r\n</ul>"
+    author: 1
+    is_active: true
+    tags:
+    - 1
+    - 3
+- model: posts.post
+  pk: 4
+  fields:
+    title: Como escolher entre Django x Asp.NET?
+    slug: como-escolher-entre-django-x-aspnet
+    excerpt: Como pudemos ver, a lista de vantagens do Django é muito mais atrativa.
+      Então, temos o nosso candidato na comparação Django x Asp.NET. Quando colocamos
+      lado a lado Django x Asp.NET, precisamos ter em mente que decidir-se pela utilização
+      do Django é decidir por Python e todas as vantagens que esta escolha representa
+    content: "<p>Como pudemos ver, a lista de vantagens do Django &eacute; muito mais
+      atrativa. Ent&atilde;o, temos o nosso candidato na compara&ccedil;&atilde;o
+      Django x Asp.NET.</p>\r\n<p>Quando colocamos lado a lado Django x Asp.NET, precisamos
+      ter em mente que decidir-se pela utiliza&ccedil;&atilde;o do Django &eacute;
+      decidir por Python e todas as vantagens que esta escolha representa.</p>\r\n<p>Al&eacute;m
+      disso, entre Django x Asp.NET, a maioria dos usu&aacute;rios recomendar&aacute;
+      o Django.</p>\r\n<p>A maior raz&atilde;o para isso? Ent&atilde;o, o Django &eacute;
+      r&aacute;pido, pr&aacute;tico e completo, al&eacute;m de ser desenvolvido em
+      Python, a linguagem do futuro.</p>\r\n<h2><strong>Ainda n&atilde;o domina o
+      Python?</strong></h2>\r\n<p><a class=\"rank-math-link\" href=\"http://dojo.bylearn.com.br/python/por-que-aprender-python-em-2020/\"
+      target=\"_blank\" rel=\"noreferrer noopener\" aria-label=\"Simplicidade, acessibilidade
+      e versatilidade. (opens in a new tab)\">Simplicidade, acessibilidade e versatilidade.</a>
+      Essas s&atilde;o apenas tr&ecirc;s das caracter&iacute;sticas que rapidamente
+      fizeram do Python uma verdadeira febre no mundo da programa&ccedil;&atilde;o,
+      conquistando espa&ccedil;o em &aacute;reas cada vez mais diferentes. &Eacute;
+      quase imposs&iacute;vel encontrar um ramo da &aacute;rea de programa&ccedil;&atilde;o
+      onde a linguagem em c&oacute;digo aberto criada por Guido Van Russen n&atilde;o
+      &eacute; usada.</p>\r\n<p>Aqui na ByLearner n&oacute;s temos o melhor curso
+      do mercado, <a href=\"http://go.hotmart.com/E16762263K?ap=2975&amp;src=DOJO&amp;sck=DOJO\"
+      target=\"_blank\" rel=\"noreferrer noopener nofollow\"><em>Python completo &ndash;
+      de J&uacute;nior a S&ecirc;nior</em><em>.</em></a> Os nossos alunos contam com
+      um material did&aacute;tico especial e exclusivo, al&eacute;m de uma equipe
+      pedag&oacute;gica sempre aberta ao di&aacute;logo e disposta a trocar conhecimentos
+      para al&eacute;m das aulas, em lives exclusivas e na central do aluno.</p>\r\n<p>Ao
+      todo, n&oacute;s temos mais de 27.000 alunos satisfeitos, uma grande experi&ecirc;ncia
+      de ensino que tamb&eacute;m nos ajudou a melhorar e conquistar cada vez mais
+      a excel&ecirc;ncia de qualidade que voc&ecirc; merece.</p>\r\n<p>Para te dar
+      um gostinho do estilo ByLearner de ensino, preparamos um e-book gratuito inteirinho
+      para voc&ecirc;. Com o nosso Boas Pr&aacute;ticas com Python voc&ecirc; vai
+      elevar o n&iacute;vel do seu c&oacute;digo, n&atilde;o deixe de baixar no link
+      abaixo:</p>\r\n<p>Vamos trocar uma ideia sobre o Django? Al&eacute;m disso,
+      n&atilde;o esque&ccedil;a de deixar um coment&aacute;rio e nos contar tudo!</p>\r\n<p>Ah!
+      Ali&aacute;s, tamb&eacute;m estamos em todas as redes sociais, siga a gente
+      e assine a nossa newsletter para n&atilde;o perder nenhum conte&uacute;do in&eacute;dito!</p>"
+    author: 1
+    is_active: true
+    tags:
+    - 1
+    - 2
+    - 3

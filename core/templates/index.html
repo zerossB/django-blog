@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Início
+{% endblock title %}
+
+{% block content %}
+<div class="container mb-4">
+    <section id="inicio">
+        <div class="row">
+            <div class="col">
+                <div class="jumbotron">
+                    <h1 class="display-4">Bylearn Blog</h1>
+                    <p class="lead">Seu Templo de Conhecimento</p>
+                    <hr class="my-4">
+                    <p>Seja bem vindo, ByLeaner! Aqui você encontrará inúmeros materiais para aprimorar ainda mais o seu estudo.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="posts">
+        <div class="row">
+            <div class="col-sm-12">
+                <h3>Posts</h3>
+                <p>Ultimos posts do nosso blog</p>
+            </div>
+            {% for post in posts %}
+            <div class="col-sm-12 col-md-3 mb-4">
+                {% include '_includes/card.html' %}
+            </div>
+            {% empty %}
+            <div class="col-sm-12 text-center">
+                <p>Ainda não temos posts cadastrados :c</p>
+            </div>
+            {% endfor %}
+        </div>
+    </section>
+</div>
+{% endblock content %}

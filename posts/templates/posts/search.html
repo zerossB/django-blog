@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container">
+    <section id="posts">
+        <div class="row">
+            <div class="col-sm-12">
+                <h3>Busca de Posts</h3>
+                <p>Todos os posts encontrados no nosso blog</p>
+            </div>
+            {% for post in posts %}
+            <div class="col-sm-12 col-md-3 mb-4">
+                {% include '_includes/card.html' %}
+            </div>
+            {% empty %}
+            <div class="col-sm-12 text-center">
+                <p>Ainda não temos posts cadastrados :c</p>
+            </div>
+            {% endfor %}
+        </div>
+        {% include '_includes/pagination.html' %}
+    </section>
+</div>
+{% endblock content %}

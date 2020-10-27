@@ -1,0 +1,18 @@
+- model: posts.tag
+  pk: 1
+  fields:
+    name: Programação
+    slug: programacao
+    excerpt: "Tudo sobre linguagens de Programação"
+- model: posts.tag
+  pk: 2
+  fields:
+    name: Ebooks
+    slug: ebooks
+    excerpt: "Todos os Ebooks da ByLearn"
+- model: posts.tag
+  pk: 3
+  fields:
+    name: Dicas
+    slug: dicas
+    excerpt: "Dicas sobre o mundo da programação"

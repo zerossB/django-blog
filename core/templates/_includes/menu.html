@@ -1,0 +1,34 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+        <a class="navbar-brand" href="{% url 'core:index' %}">ByLearn Blog</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarMenu">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'core:index' %}">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'posts:list' %}">Posts</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Autores</a>
+                </li>
+            </ul>
+        </div>
+
+        <form class="form-inline my-2 my-lg-0 text-center" action="{% url 'posts:search' %}" method="GET">
+            <div class="input-group">
+                <input type="search" class="form-control" placeholder="Pesquisa..."
+                    aria-label="Pesquisa..." aria-describedby="searchButton" name="q">
+                <div class="input-group-append">
+                    <button class="btn btn-outline-secondary" type="submit" id="searchButton">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
+</nav>

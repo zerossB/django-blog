@@ -1,0 +1,32 @@
+<div class="card">
+    <div class="card-body">
+        <div class="row align-items-center">
+            <div class="col-md-4 text-center">
+                <img src="{{ author.get_gravatar_url }}" alt="{{ author.name }}" class="img-thumbnail">
+            </div>
+            <div class="col-md-8 mt-3">
+                <h4>{{ author.name }}</h4>
+                <p>{{ author.excerpt | safe }}</p>
+                {% if author.social %}
+                <ul class="nav justify-content-center">
+                    {% if  author.social.linkedin %}
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ author.social.linkedin }}"><i class="fab fa-linkedin"></i></a>
+                    </li>
+                    {% endif %}
+                    {% if  author.social.facebook %}
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ author.social.facebook }}"><i class="fab fa-facebook"></i></a>
+                    </li>
+                    {% endif %}
+                    {% if  author.social.twitter %}
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ author.social.twitter }}"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    {% endif %}
+                </ul>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
